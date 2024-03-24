@@ -2,9 +2,15 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./srcset.css">
+        <link rel="stylesheet" href="../../06-lection4/03-srcset/srcset.css">
     </head>
     <body>
-
+        <div class="image-container">
+          <picture>
+            <source media="(min-width: 450px)" srcset="06-lection4/03-srcset/public/forest_400.jpg 1x" />
+            <source media="(min-width: 800px)" srcset="06-lection4/03-srcset/public/forest_768.jpg 2x" />
+            <!-- <img src="06-lection4/03-srcset/public/forest_400.jpg" alt="Описание картинки" /> -->
+          </picture>
+        </div>
     </body>
 </html>
